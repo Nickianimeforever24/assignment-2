@@ -1,0 +1,99 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: Times New Roman;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+}
+#Bold {
+  font-family: "Space Mono", monospace;
+  color: #a37020;
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div {
+  border: 3px solid black;
+  width: 1150px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  background: rgb(60, 63, 112);
+  font-size: 15px;
+}
+
+div.second {
+  border: 3px solid black;
+  font-size: 20px;
+  width: 1150px;
+  padding: 0px;
+  margin: 0px;
+  background: rgb(163, 112, 32);
+}
+
+div.third {
+  border: 3px solid black;
+  width: 1150px;
+  padding: 0px;
+  margin: 0px;
+  background: rgb(180, 59, 55);
+}
+
+.img {
+  border-style: solid;
+  border-color: white;
+  width: 275px;
+  margin-left: 10px;
+  height: 380px;
+}
+.img2 {
+  width: 450px;
+  max-height: 450px;
+  margin: 0px;
+  padding: 0px;
+}
+.background {
+  font-size: 15px;
+  color: rgb(60, 63, 112);
+  list-style-type: none;
+  text-align: left;
+  margin: 14px;
+  font-family: "Electrolize", sans-serif;
+  font-weight: bold;
+}
+.year {
+  text-align: left;
+  background: rgb(211, 183, 26);
+  background-position: left;
+  background-size: 19px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.background2 {
+  text-align: center;
+  background: white;
+  background-position: center;
+  background-size: 15px;
+  margin: auto;
+  padding: auto;
+  width: 650px;
+  height: 24px;
+}
