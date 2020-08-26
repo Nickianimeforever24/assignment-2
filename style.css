@@ -97,3 +97,47 @@ div.third {
   width: 650px;
   height: 24px;
 }
+
+.menu {
+  background-color: black;
+  color: white;
+}
+
+.navigation {
+  width: 100%;
+  /* margin: 0 5px; */
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.navigation .icon {
+  display: none;
+}
+
+.navigation li {
+  display: inline;
+  font-size: 1.25rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a.active {
+  border-bottom: 2px solid;
+}
+
+.navigation a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid;
+}
+
+.navigation a.icon:hover {
+  /* text-decoration: underline; */
+  border: none;
+}
